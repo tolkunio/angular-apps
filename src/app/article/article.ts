@@ -4,7 +4,6 @@ export class Article{
                 public link:string,
                 public votes:number|null){
     votes = votes ||0;
-
     }
 
     voteUp():void{
